@@ -1,0 +1,38 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header a {
+    color: #e5e7eb;
+}
+
+.header-img {
+    width: 300px;
+    height: 200px;
+    background-color: #e5e7eb;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid blue;
+}
