@@ -14,6 +14,28 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    padding: 0;
+    margin: 0;
+    line-height: 50px;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2 {
+    margin: 4px 0;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+h3 {
+    margin: 4px 0;
+}
+
+p {
+    margin: 0;
+}
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -42,22 +64,76 @@ a {
 
 .links a {
     color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header,
+.footer {
+    display: flex;
+    padding: 12px 20%;
+}
+
+.section-1,
+.section-2,
+.section-3,
+.section-4 {
+    display: flex;
+    padding: 100px 20%;
 }
 
 .section-1 {
     background-color: #1f2937;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.section-2 {}
+.section-1 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 0 50%;
+    gap: 16px;
+}
+
+.section-2 {
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.section-2 .info-title {
+    flex-basis: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.section-2 .info-box {
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 20px;
+}
 
 .section-3 {
     background-color: #e5e7eb;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-3 .quote-text {
+    text-align: justify;
+}
+
+.section-3 .quote-auth {
+    text-align: right;
 }
 
 .section-4 {}
 
 .header-img {
-    width: 300px;
     height: 200px;
     background-color: #e5e7eb;
     border-radius: 10px;
@@ -65,6 +141,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1 0 50%;
 }
 
 .info-title {
@@ -102,17 +179,24 @@ a {
 }
 
 .banner {
-    margin: 4rem;
     width: 800px;
     height: 120px;
     background-color: #3882f6;
     border-radius: 10px;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner .signup {
+    border: 1px solid white;
 }
 
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
-    flex-shrink: 4;
+    justify-content: center;
 }
 
 .signup {
