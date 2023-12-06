@@ -134,15 +134,16 @@ p {
 .section-4 {}
 
 .header-img {
-    width: 300px;
     height: 200px;
-    background-color: #e5e7eb;
-    border-radius: 10px;
-    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1 0 50%;
+}
+
+.header-img img {
+    height: 200px;
+    width: 300px;
 }
 
 .info-title {
