@@ -86,6 +86,11 @@ p {
     gap: 30px;
     align-items: center;
     justify-content: space-between;
+    transition: margin-left 2s;
+}
+
+.section-1:before {
+    margin-left: 300px;
 }
 
 .section-1 .container {
